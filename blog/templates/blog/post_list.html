@@ -28,6 +28,20 @@
         <p>고려대학교 고려대학교 마음의 고향</p>
         <p>고려대학교 고려대학교 영원히 빛난다~</p>
     </div>
+
+<!-- admin 사이트에서 만든 게시물이 이 코드로 인해 다 뜸 -->
+    {% for post in posts %}
+        <div>
+            <p>published: {{ post.published_date }}</p>
+            <h1><a href="">{{ post.title }}</a></h1>
+            <p>{{ post.text|linebreaksbr }}</p>
+        </div>
+    {% endfor %}
+
+<!-- posts에 있는 게시물 post에 대해서 published는 그 게시물이 만들어진 시간이고,
+href로 하이퍼링크는 아직 안 넣었고, 그 하이퍼링크 달린 거에 제목을 적고,
+그 밑에 게시물의 내용을 적어라
+for문을 통해서 모든 게시물 post에 대해서 각각 그렇게 하라는 뜻이다! -->
 </body>
 </html>
 
