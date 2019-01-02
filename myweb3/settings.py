@@ -25,7 +25,7 @@ SECRET_KEY = 'pnw^-gs=_r@g95znir3(8^*cv42$2m%-86*28p&vcw#3)ar=11'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com', 'localhost']
 
 # Debug가 True이고 Allowed_Host가 비어있다면 호스트는 ['localhost', '127.0.0.1', '[::1]'] 에 대해서 유효함
 
