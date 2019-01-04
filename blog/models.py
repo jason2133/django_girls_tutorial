@@ -43,4 +43,3 @@ class Post(models.Model): # 모델을 정의한다
 # cmd에 python manage.py migrate blog 명령을 통해 실제 데이터베이스에 모델 추가를 반영함
 # 글 모델이 데이터베이스에 저장됨!
 
-
