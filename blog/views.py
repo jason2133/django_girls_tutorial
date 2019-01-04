@@ -14,7 +14,7 @@
 
 # C:/Users/jason/Desktop/myweb2/myweb3/blog/templates/blog/post_list.html
 
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, get_object_or_404, redirect
 from django.utils import timezone
 from .models import Post
 from .forms import PostForm
