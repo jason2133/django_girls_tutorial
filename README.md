@@ -1,6 +1,6 @@
 # django_girls_tutorial
 ## Djangogirls의 Tutorial 공부해보기
-링크(한국어) : https://tutorial.djangogirls.org/ko/
+링크(한국어) : https://tutorial.djangogirls.org/ko/  
 링크(원본, 영어) : https://tutorial.djangogirls.org/en/
 
 ## 영광의 Django 설치 완료!
